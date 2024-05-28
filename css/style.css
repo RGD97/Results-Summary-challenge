@@ -99,6 +99,7 @@ body {
     border-radius: 15px;
     padding: 10px;
     height: 30px;
+    color: hsl(0, 100%, 67%);
 }
 .memory {
     background-color: hsla(39, 100%, 56%, 0.151);
@@ -134,7 +135,7 @@ body {
     color: hsl(234, 85%, 45%);
 }
 .button {
-    background-image: linear-gradient(to bottom,hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+    background-color: hsl(224, 30%, 27%);
     border-radius: 40px;
     height: 40px;
     width: 200px;
@@ -146,8 +147,13 @@ body {
     height: 30px;
     align-items: center;
 }
+.button:hover {
+    background-image: linear-gradient(to bottom,hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+    background-color: hsla(241, 70%, 20%, 0.226);
+    cursor: pointer;
+}
 .mark {
-    color: hsl(224, 30%, 27%);
+    color: hsl(222, 33%, 18%);
 }
 .full {
     color: hsla(224, 30%, 27%, 0.377);
