@@ -79,10 +79,16 @@ body {
 .summary {
     border-radius: 20px;
     width: 250px;
+    height: 400px;
     background-color: hsl(0, 0%, 100%);
     display: flex;
     flex-direction: column;
     box-shadow: 5px 10px hsl(221, 100%, 96%);
+    display: flex;
+    justify-content: space-between;
+    /* justify-content: center;
+    align-items: center; */
+    padding: 30px;
 }
 .reaction {
     background-color: hsla(0, 100%, 67%, 0.075);
@@ -90,11 +96,59 @@ body {
     justify-content: center;
     align-items: center;
     justify-content: space-between;
+    border-radius: 15px;
+    padding: 10px;
+    height: 30px;
 }
 .memory {
-    background-color: hsla(0, 100%, 67%, 0.075);
+    background-color: hsla(39, 100%, 56%, 0.151);
     display: flex;
     justify-content: center;
     align-items: center;
     justify-content: space-between;
+    border-radius: 15px;
+    padding: 10px;
+    height: 30px;
+    color: hsl(39, 100%, 56%);
+}
+.verbal {
+    background-color: hsla(166, 100%, 37%, 0.103);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 15px;
+    padding: 10px;
+    height: 30px;
+    color: hsl(166, 100%, 37%);
+}
+.visual {
+    background-color: hsla(234, 85%, 45%, 0.11);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 15px;
+    padding: 10px;
+    height: 30px;
+    color: hsl(234, 85%, 45%);
+}
+.button {
+    background-image: linear-gradient(to bottom,hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+    border-radius: 40px;
+    height: 40px;
+    width: 200px;
+    color: hsl(0, 0%, 100%);
+    display: flex;
+    justify-content: center;
+    border-radius: 15px;
+    padding: 10px;
+    height: 30px;
+    align-items: center;
+}
+.mark {
+    color: hsl(224, 30%, 27%);
+}
+.full {
+    color: hsla(224, 30%, 27%, 0.377);
 }
